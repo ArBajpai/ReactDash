@@ -1,0 +1,107 @@
+/* src/App.css */
+body {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sidebar {
+  width: 50%; /* Increased width */
+  background-color: #3b3b3b;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  text-align: left;
+  color:cyan;
+  margin-bottom: 30px;
+}
+
+.chart-container {
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  width: 400px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  margin-bottom: 5px;
+}
+
+.filter-group input,
+.filter-group .react-datepicker-wrapper {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.recharts-tooltip-wrapper {
+  background-color: #444444 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.recharts-tooltip-label {
+  color: #ffffff !important;
+}
+
+.recharts-default-tooltip {
+  background-color: #444444 !important;
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.recharts-legend-item-text {
+  color: #ffffff !important;
+}
+
+.bar-chart .recharts-bar-rectangle:hover {
+  opacity: 1 !important;
+}
+
+.line-chart .recharts-dot {
+  stroke: #ffffff;
+}
+
+.insights {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.insight-item {
+  margin-bottom: 5px;
+}
+
+
+
+.filter-container {
+  margin-bottom: 20px;
+}
